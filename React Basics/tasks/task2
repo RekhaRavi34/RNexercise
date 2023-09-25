@@ -1,0 +1,36 @@
+import React from 'react';
+
+function Promo(props) {
+  const styles = {
+    color: "red",
+    backgroundColor: "blue",
+    fontWeight:"bold"
+  }
+  return (
+    <div style={{border:"2px solid red"}}>
+      <h1 style={styles}>{props.heading}</h1>
+      <h2>{props.promoSubHeading}</h2>
+    </div>
+  );
+}
+
+
+function App(){
+  return (
+    <Promo heading="SALE SALE SALE" promoSubHeading="Buy it now or miss out!"/>
+  )
+}
+
+export default App;
+
+/*  Task
+
+Use inline styles to: 
+1. Change the color of the h1 to anything you want 
+2. Make the h1 text bold (change the font weight)
+3. Add inline-styles to the <div> to create a large red dashed border around *all* the text 
+
+ */
+
+
+
