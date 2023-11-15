@@ -198,3 +198,5 @@ Here are some of the elements you may need for the implementation:
 
 ![](screenshots/header_animation.gif)
 
+Solution:
+Advanced react protfolio project
