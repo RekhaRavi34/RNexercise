@@ -88,3 +88,15 @@ https://reactnative.dev/docs/textinput#clearbuttonmode-ios
 A visual guide to the React Native TextInput keyboardType prop values
 https://lefkowitz.me/visual-guide-to-react-native-textinput-keyboardtype-options/
 
+Pressable · React Native
+
+Note that React Native features several other core components that also respond to a press interaction, which may be more suitable for certain use cases. You can become more familiar with them by accessing these links:
+
+Button · React Native
+
+TouchableHighlight· React Native
+
+TouchableOpacity· React Native
+
+TouchableWithoutFeedback· React Native
+
