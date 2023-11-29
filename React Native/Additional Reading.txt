@@ -1,0 +1,90 @@
+React Native Dev Environment Setup
+https://reactnative.dev/docs/environment-setup
+
+Download Node.js
+https://nodejs.org/en/download/
+
+The Missing Package Manager for macOS (or Linux) — Homebrew
+https://brew.sh/
+
+Watchman A file watching service | Watchman (facebook.github.io)
+https://facebook.github.io/watchman/
+
+Download Visual Studio Code - Mac, Linux, Windows
+https://code.visualstudio.com/Download
+
+Download Android Studio & App Tools - Android Developers
+https://developer.android.com/studio
+
+Xcode on the Mac App Store (apple.com)
+https://apps.apple.com/us/app/xcode/id497799835?mt=12
+
+CocoaPods Guides - Getting Started
+https://guides.cocoapods.org/using/getting-started.html
+
+First steps - Expo Documentation
+https://docs.expo.dev/tutorial/planning/
+
+What is Expo – Expo Documentation
+https://docs.expo.dev/introduction/expo/
+
+Core components and APIs · React Native  
+https://reactnative.dev/docs/components-and-apis
+
+Core components and Native components · React Native
+https://reactnative.dev/docs/intro-react-native-components
+
+Using libraries · React Native
+https://reactnative.dev/docs/libraries
+
+View · React Native
+https://reactnative.dev/docs/view
+
+Text · React Native
+https://reactnative.dev/docs/text
+
+ScrollView · React Native
+https://reactnative.dev/docs/scrollview
+
+StyleSheet · React Native
+https://reactnative.dev/docs/stylesheet
+
+Style · React Native
+https://reactnative.dev/docs/style
+
+Color Reference · React Native
+https://reactnative.dev/docs/colors
+
+FlatList · React Native
+https://reactnative.dev/docs/flatlist
+
+Expo Documentation
+https://docs.expo.dev/versions/latest/react-native/flatlist/
+
+SectionList · React Native
+https://reactnative.dev/docs/sectionlist
+
+Using List Views · React Native
+https://reactnative.dev/docs/using-a-listview
+
+TextInput · React Native
+https://reactnative.dev/docs/textinput
+
+KeyboardAvoidingView · React Native
+https://reactnative.dev/docs/keyboardavoidingview
+
+keyboardDismissMode · React Native
+https://reactnative.dev/docs/scrollview#keyboarddismissmode
+
+onFocus · React Native
+https://reactnative.dev/docs/textinput#onfocus
+
+onBlur · React Native
+https://reactnative.dev/docs/textinput#onblur
+
+clearButtonMode · React Native
+https://reactnative.dev/docs/textinput#clearbuttonmode-ios
+
+A visual guide to the React Native TextInput keyboardType prop values
+https://lefkowitz.me/visual-guide-to-react-native-textinput-keyboardtype-options/
+
