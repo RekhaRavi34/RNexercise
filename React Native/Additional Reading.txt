@@ -89,14 +89,25 @@ A visual guide to the React Native TextInput keyboardType prop values
 https://lefkowitz.me/visual-guide-to-react-native-textinput-keyboardtype-options/
 
 Pressable · React Native
-
-Note that React Native features several other core components that also respond to a press interaction, which may be more suitable for certain use cases. You can become more familiar with them by accessing these links:
+https://reactnative.dev/docs/pressable
 
 Button · React Native
+https://reactnative.dev/docs/button
 
 TouchableHighlight· React Native
+https://reactnative.dev/docs/touchablehighlight
 
 TouchableOpacity· React Native
+https://reactnative.dev/docs/touchableopacity
 
 TouchableWithoutFeedback· React Native
+https://reactnative.dev/docs/touchablewithoutfeedback
 
+Image · React Native
+https://reactnative.dev/docs/image
+
+ImageBackground · React Native
+https://reactnative.dev/docs/imagebackground
+
+Image Style Props · React Native
+https://reactnative.dev/docs/image-style-props
