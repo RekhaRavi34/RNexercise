@@ -141,3 +141,24 @@ https://reactnavigation.org/docs/params
 
 Configuring the header bar | React Navigation
 https://reactnavigation.org/docs/headers
+
+Tab navigation | React Navigation
+https://reactnavigation.org/docs/tab-based-navigation
+
+Bottom Tabs Navigator | React Navigation
+https://reactnavigation.org/docs/bottom-tab-navigator
+
+Material Bottom Tabs Navigator | React Navigation
+https://reactnavigation.org/docs/material-bottom-tab-navigator
+
+Material Top Tabs Navigator | React Navigation
+https://reactnavigation.org/docs/material-top-tab-navigator/
+
+Drawer navigation | React Navigation
+https://reactnavigation.org/docs/drawer-based-navigation/
+
+Drawer Navigator | React Navigation
+https://reactnavigation.org/docs/drawer-navigator
+
+Multiple drawers | React Navigation
+https://reactnavigation.org/docs/multiple-drawers
