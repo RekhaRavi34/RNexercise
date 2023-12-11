@@ -132,3 +132,12 @@ https://reactnavigation.org/docs/hello-react-navigation
 
 Troubleshooting | React Navigation
 https://reactnavigation.org/docs/troubleshooting
+
+Moving between screens | React Navigation
+https://reactnavigation.org/docs/navigating
+
+Passing parameters to routes | React Navigation
+https://reactnavigation.org/docs/params
+
+Configuring the header bar | React Navigation
+https://reactnavigation.org/docs/headers
