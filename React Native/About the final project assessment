@@ -1,0 +1,24 @@
+About the final project assessment
+
+The purpose of the graded assessment
+
+The primary purpose of a graded assessment is to check your knowledge and understanding of the key learning objectives of the course you have just completed. Most importantly, graded assessments help you establish which topics you have mastered and which topics require further focus before completing the course. Ultimately, the graded assessment is designed to help you make sure that you can apply what you have learned. This assessment's learning objective is to allow you to create a React Native application.
+
+What to expect from the final project
+
+You have encountered exercises, knowledge checks, in-video questions and other assessments throughout this course. Now, you will combine the skills and knowledge that you applied at these checkpoints and use them to build a React Native app.
+
+The graded assessment requires you to create a newsletter sign-up form for the Little Lemon restaurant. You will be provided with some starter code, and your task is to make any necessary edits and additions to create an app in which a user can navigate from the Welcome screen to the Subscribe screen and then input and submit their email address.
+
+The Welcome screen should consist of a Little Lemon icon image and some introductory text, plus a button that will take the user to the Subscribe screen when pressed.
+
+The Subscribe screen will contain an image, text, a text input box, and a button. The text input box prompts the user to type an email address, enabling the button. When the button is pressed, a thank you message is displayed.
+
+Here are some screen captures that illustrate one way the app can appear:
+
+The ‘Welcome’ screen Little Lemon icon image and The ‘Subscribe’ screen with image, text, a text input box, and a button.
+Review the final project
+
+After completion, you will review your app to assess whether it meets the requirements outlined in the self-review quiz.  
+
+Good luck!
