@@ -1,0 +1,69 @@
+
+Exercise: Create database and create table
+
+Overview
+This exercise will take you through a step-by-step process for creating a database and creating a table in the database. The objective is to provide you with an opportunity to practice setting up databases and tables and to prepare them to handle data.
+
+Scenario
+Mr. John Ericson owns a small bookshop. He decides to build a digital database to maintain data about his customers electronically instead of using pen and paper. 
+
+In this exercise, you’ll build the bookshop database.
+
+Note: If this is your first time working with a Coursera Lab or you need a refresher, visit the following help articles:
+
+Using web development labs
+
+Solving common issues with Coursera Labs
+
+Instructions
+Begin by completing the following tasks. This allows you to do a comparison between your answers and the final solution.
+
+Step 1: Create a database 
+Create a new database with the name bookshop. This is where you will store data about the customers.
+
+Step 2: Create a "customers" table
+Inside the database, create a table named customers. This should contain columns for customerID, customerName and customerAddress.
+
+Hint: Set a suitable data type for each column. customerID should be numbers, customerName should hold alphabetic characters, and customerAddress will have both.
+
+Conclusion
+In this exercise, you explored a step-by-step process for creating a database, as well as creating a table within the database which contains appropriately-named columns and is set up to handle suitable data types.
+
+Solution: Create database and create table
+
+Step 1: Create a database
+
+Inside the terminal, write the CREATE DATABASE command followed by the name of your new database. In this case, the database name is bookshop. 
+
+Finally, add a semi-colon at the end of the statement and press Enter on the keyboard to execute the query.
+
+CREATE DATABASE bookshop;
+
+Reference the following screenshot of the CREATE DATABASE statement inside the terminal.    
+
+
+Step 2: Create a customers table
+
+1. To create the customers table inside the bookshop database, begin by choosing the bookshop database. To do this, type the following:
+
+USE bookshop;
+
+
+2. Write the CREATE TABLE statement.
+
+Write an SQL statement that contains the CREATE TABLE command followed by the name of the table, which in this scenario is customers. Then, add an open parenthesis to define the table’s columns including the customerID, customerName, and customerAddress.
+
+Now a suitable data type must be assigned to each column. Once all the required columns have been defined, add a closing parenthesis and a semi-colon at the end of the SQL statement as follows:
+
+CREATE TABLE customers (customerID int, customerName varchar(50), customerAddress varchar(255)); 
+
+3. Next, press the Enter key to execute the SQL statement. The following output confirms the query is OK, which means the table has been successfully created.  
+
+
+4. To show the table you have created, type the following:
+
+SHOW tables;
+
+There you have it! The customers table displays as part of the tables in the bookshop database.  
+
+In this exercise, you practiced creating a database and adding a table to it.
