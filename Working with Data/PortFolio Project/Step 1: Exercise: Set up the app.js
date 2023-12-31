@@ -26,3 +26,4 @@ https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/plHPGgiRTmC9_jhd1PlRmA_9
 
 Conclusion      
 By completing this exercise, you now have a React Native app page that is ready to be populated with data. You’ll make this happen across the following exercises.
+
