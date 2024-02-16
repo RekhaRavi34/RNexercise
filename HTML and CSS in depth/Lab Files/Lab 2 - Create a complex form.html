@@ -39,4 +39,113 @@ Refer to your cheat sheets and glossary from previous lessons.
 
 When you finish the exercise, the output should be similar to the following image.
 
+Solution:
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Little Lemon</title>
+
+  <meta property="og:title" content="Our Menu">
+  <meta property="og:type"  content="website">
+  <meta property="og:image" content="logo.png">
+  <meta property="og:url"   content="https://littlelemon/">
+  <meta property="og:description" content="Little Lemon is a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="Little Lemon">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <img src="logo.png">
+  </header>
+  <main>
+    <form>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div>
+        <label for="booking_date">Booking date</label>
+        <input type="date" id="booking_date" name="booking_date" required>
+      </div>
+      <div>
+        <label for="peoplecount">Numder of people</label>
+        <input type="number" id="peoplecount" name="peoplecount" min="1" max="8" required>
+      </div>
+      <div>
+        <label for="terms">
+          <input type="checkbox" id="terms" name="terms" value="agree" required>
+          I agree to the cancellation policy
+        </label>
+      </div>
+      <button type="submit">Book Now</button>
+    </form>
+  </main>
+</body>
+
+</html>
+
+
+styles.css:
+
+body {
+    background-color: #E0E0E2;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+}
+
+li {
+    display: inline;
+}
+
+main {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+h1 {
+    color: #721817;
+}
+
+h2 {
+    color: #721817;
+}
+
+.center-text {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 > span {
+    color: #FA9F42;
+    font-size: 0.75em;
+}
+
+form > div {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#copyright {
+    padding-top: 12px;
+    font-size: 0.75em;
+}
+
+input:focus:invalid {
+    color: red;
+    border: red 3px solid;
+}
