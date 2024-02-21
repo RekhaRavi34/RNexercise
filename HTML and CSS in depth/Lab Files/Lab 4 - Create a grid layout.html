@@ -1,0 +1,142 @@
+Introduction
+
+In this lab, you will be creating a grid layout commonly called the Holy Grail layout.
+
+Goal
+
+To create a grid layout  using the grid template area 
+
+Objectives
+
+Add styling to the CSS page with the help of the grid template area 
+
+Configure rules for different properties inside the grid template area
+
+Instructions
+
+Initial code for the HTML is already provided. The rules for different areas within the grid template area are already provided in the CSS code. You have to add the rules for the container class as per the instructions provided.
+
+The two set of rules to be added for the container class will have one set for regular container class and another using media query for a different size. Follow the instructions below.
+
+First, write rules by adding properties for the container class as below.
+
+Step 1:  Add a display property that will create a grid.
+display: grid;
+
+Step 2: It should have a maximum width of 900 pixels.
+max-width: 900px;
+
+Step 3: The minimum height for it will be the length of 50 viewport height.
+min-height: 50vh;
+
+Step 4: Add a property for grid template columns that will span 100 % of the width.
+grid-template-columns: 100%;
+
+Step 5: Add a property for grid template values for five rows, of which the middle one will have a value of 1 fractional area and the rest will be set to auto. 
+grid-template-rows: auto auto 1fr auto auto;
+
+Step 6: Finally, you will create a grid template area that will contain five values: header, left, main, right and footer.
+grid-template-areas: "header" "left" "main" "right" "footer";
+
+Similar to the rules you have defined above, you will again add a different set of rules inside the media query when the minimum width of the viewport is 440 pixels. 
+
+Step 7: For the container class the three grid template columns will have respective values of 150 pixels, 1 fractional area and 150 pixels again.
+grid-template-columns: 150px 1fr 150px;
+
+Step 8: For the three grid template rows , the middle value should be 1 fractional, while the two others will be set to auto.
+grid-template-rows: auto 1fr auto;
+
+Step 9: This time, you will be creating a 3 x 3 grid template area that will have only header in the first row. It will have left, main and right in the second row and finally have only footer in the last row.
+
+grid-template-areas: "header header header" 
+                     "left main right" 
+					 "footer footer footer";
+
+Finally, you should preview your code and see the final output.  Try resizing your browser viewport to see how the layout changes.
+
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/XfAxhz10ThuwMYc9dO4bOg_1cad82f2cb2f4c588b9ce3ebbe3db4a1_Screen-Shot-2022-08-01-at-12.00.41-AM.png?expiry=1708646400000&hmac=QdxXLu_uuCsHyd-FfEogB886-4EtjZfkz9AtoyufiDE
+
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/OANYK9nPTk6DWCvZz65Oxg_f038b884f33f4186ae32ff79c06bdba1_Screen-Shot-2022-08-01-at-12.00.31-AM.png?expiry=1708646400000&hmac=JTX9Mulfcm7TiekNtGsCC_VgcwLvU9WgOhkNbEmhwlo
+
+index.html:
+
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header"> Header </header>
+        <main class="main"> Content </main>
+        <div class="sidebar left"> Sidebar </div>
+        <div class="sidebar right"> Sidebar </div>
+        <footer class="footer"> Footer </footer>
+    </div>
+</body>
+
+</html>
+
+styles.css
+
+
+/* Add code for container class below */
+.container {
+    display:grid;
+    max-width: 900px;
+    min-height: 50vh;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto 1fr auto auto;
+    grid-template-areas: "header" "left" "main" "right" "footer";
+}
+/* Add media rules for container class below */
+@media (min-width: 440px) {
+    .container {
+    /* Add rules here */
+    grid-template-columns: 150px 1fr 150px;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: "header header header" 
+                         "left main right" 
+		            			 "footer footer footer";
+    }
+}
+
+
+/* Properties for other selectors */
+.header {
+    grid-area: header;
+    padding: 10px;
+    background-color:black;
+    color: #fff;
+    text-align: center;
+}
+  
+.main {
+    grid-area: main;
+    padding: 25px;
+}
+  
+.left {
+    grid-area: left;
+    background-color: peachpuff;
+  }
+  
+.right {
+    grid-area: right;
+  }
+  
+.footer {
+    grid-area: footer;
+    padding: 10px;
+    background-color:black;
+    color: #fff;
+    text-align: center;
+  }
+  
+.sidebar {
+    padding: 25px;
+    background-color:darkcyan;
+  }
