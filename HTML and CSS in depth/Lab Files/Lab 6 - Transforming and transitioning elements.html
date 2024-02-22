@@ -141,9 +141,7 @@ div p{
 	border-radius: 15%;
 	border: solid rgb(250, 125, 75);
 }
-/* Add rules for steps 8 and 9 */
-
-.letters :nth-child(even):hover{
+.letters:hover p:nth-child(even){
 transform: rotateY(360deg);
 transition: 0.5s;
 }
@@ -151,7 +149,7 @@ transition: 0.5s;
 
 /* Add rules for steps 10 and 11 */
 
-.letters :nth-child(odd):hover{
+.letters:hover p:nth-child(odd){
 transform: rotateX(360deg);
 transition: 1.5s;
 }
