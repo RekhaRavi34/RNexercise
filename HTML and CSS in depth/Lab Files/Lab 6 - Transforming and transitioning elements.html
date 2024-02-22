@@ -1,0 +1,157 @@
+Introduction
+
+In this lab you have been provided with an HTML code. You will practice using the transform and transition properties in CSS by applying them to specific selectors inside your code.
+
+Goal
+
+To animate the letter boxes created on the webpage using the transform and transition properties inside CSS to add interactivity to the page
+
+Objectives
+
+Add a set of rules to a specific selector present inside your CSS code for the corresponding HTML code
+
+Add transform and transition properties for the same element in order to add interactivity 
+
+Learner Instructions
+
+Initial code for the HTML is already provided. Additionally, rules have already been added for the ‘container’ class and the ‘letters’ class along with a few more properties defined using the Universal selector. You have to add the rules for other selectors as per the instructions below:
+
+Add the following rules for the 'p' element present inside the class 'letters' using descendant selector: 
+
+Step 1: Align the text to center
+text-align: center;
+
+Step 2: Change the background color to RGB value of 250, 150, 100 respectively
+background-color: rgb(250, 150, 100);
+
+Step 3: Assign the width to be 70 pixels
+width: 70px;
+
+Step 4: The right side of the margin should be assigned a value of 1.5 pixels
+margin-right: 1.5px;
+
+Step 5: Change the radius of the border to 15 percent
+border-radius: 15%;
+
+Step 6: Now assign the color of the border an RGB value of 250, 125 and 75 respectively
+border-color: rgb(250, 125, 75);
+
+Step 7: Finally change the border style to be solid
+border-style: solid;
+
+Create new rules for the 'even' nth child of the 'p' element that follows the class 'letters'.
+
+Make use of the descendant selector such that, once you 'hover' over the class 'letters', for the 'nth-child' of the 'p' element inside it, the rules below must be assigned:
+
+Step 8: Add a transformation where you will rotate the 'p' element tags on Y-axis by 360 degrees.
+transform: rotateY(360deg);
+
+Step 9: You must also show transition for this over a time span of 0.5 seconds. 
+transition: 0.5s;
+
+Hint: The rules for 'even' valued children of a given selector can be specified by using a syntax such as: selector:n-th-child(even)
+
+Similar to the rules above, you must now create rules for the 'odd' nth-child of the 'p' element that follows the class 'letters'.
+
+Make use of the descendant selector such that, once you 'hover' over the class 'letters', for the odd 'nth-child' of the 'p' element inside it, the rules below must be assigned:
+
+Hint: The rules for 'odd' valued children of a given selector can be specified by using a syntax such as: selector:n-th-child(odd)
+
+Step 10: Add a transformation where you will rotate the 'p' element tags on X-axis by 360 degrees.
+transform: rotateX(360deg);
+
+Step 11: You must also show transition for this over a time span of 1.5 seconds.
+transition: 1.5s;
+
+Save the CSS file and open Live Preview.  The result should be similar to the following animation.
+
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/XVCgi_XjQCuQoIv143ArLA_f1809a32e1124e1d9a4478d8677fb0e1_UGL_TT.gif?expiry=1708732800000&hmac=z8yNblBkPkOhyX4FqoCMi7R_a6WvPppkR9YY0gWVcZE
+
+
+index.html:
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="letters">
+            <p>D</p>
+            <p>o</p>
+            <p>n</p>
+            <p>t</p>
+        </div>
+        <div class="letters">
+            <p>W</p>
+            <p>o</p>
+            <p>r</p>
+            <p>r</p>
+            <p>y</p>
+        </div>
+        <div class="letters">
+            <p>B</p>
+            <p>e</p>
+        </div>
+        <div class="letters">
+            <p>H</p>
+            <p>a</p>
+            <p>p</p>
+            <p>p</p>
+            <p>y</p>
+        </div>
+    </div>
+</body>
+
+</html>
+
+styles.css:
+/* Properties for other selectors */
+* {
+	padding: 0;
+	margin: 0;
+	color: pink;
+}
+  
+.container {
+	min-height: 100vh;
+	background-color:bisque;
+}
+  
+.letters {
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+	margin-bottom: 20px;
+	text-transform:uppercase;
+	font-size: 60px;
+	
+}
+
+/* Add rules for the element 'p' present inside the class 'letters' using descendant selector */
+
+div p{
+	background-color: rgb(250, 150, 100);
+	text-align: center;
+	width: 70px;
+	margin-right: 1.5px;
+	border-radius: 15%;
+	border: solid rgb(250, 125, 75);
+}
+/* Add rules for steps 8 and 9 */
+
+.letters :nth-child(even):hover{
+transform: rotateY(360deg);
+transition: 0.5s;
+}
+
+
+/* Add rules for steps 10 and 11 */
+
+.letters :nth-child(odd):hover{
+transform: rotateX(360deg);
+transition: 1.5s;
+}
