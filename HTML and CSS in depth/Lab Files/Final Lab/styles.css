@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin:20px;
+    height:100vh;
+}
+
+.headerdiv{
+    display: flex;
+    width: 20%;
+    justify-self: center;
+    margin: 0 40%;
+}
+.navbar{
+display:flex;
+margin: 1rem 0;
+}
+.linkcontainer{
+    background-color: grey;
+    display:flex;
+    flex:1;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.linkcontainer li{
+    list-style-type: none;
+}
+a{
+    display: inline-block;
+    padding:1rem;
+    margin: 0 1rem;
+    text-align:center;
+    text-decoration: none;
+    color: white;
+    font-family: "Quicksand", sans-serif;
+}
+a:hover{
+    color: yellow;
+    font-size: large;
+
+}
+.bannercontainer{
+    background-image: url("back4.jpg");
+    color:white;
+    padding: 3rem;
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 1rem;
+    font-size: large;
+   
+}
+.bannercontainer p{
+    margin-top: 1rem;
+    font-size: small;
+    
+}
+.bannercontainer h1{
+    position: relative;
+    animation: paramove 3s infinite ease-in-out alternate;
+}
+@keyframes paramove{
+  from{transform:translate3d(0,0,0)}
+  to{transform:translate3d(2em,0,0)}
+}
+.cardcontainer{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 1.5rem;
+    grid-template-areas: "card1" "card2" "card3" "card4" "card5" "card6";
+
+}
+@media(min-width:340px){
+    .cardcontainer{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 1fr 1fr 1fr ;
+        gap: 1.5rem;
+        grid-template-areas: "card1 card2" "card3 card4" "card5 card6";
+    
+    }
+}
+@media(min-width:440px){
+    .cardcontainer{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 1fr 1fr;
+        gap: 1.5rem;
+        grid-template-areas: "card1 card2 card3" "card4 card5 card6";
+    
+    }
+}
+
+.cardcontainer article{
+border:1px solid grey;
+font-family: "Dosis";
+font-size: medium;
+color: black;
+border-radius: 1rem;
+}
+.cardcontainer article:hover{
+    box-shadow: 7px 7px 2px grey;
+}
+article p,h1{
+    padding: .5rem;
+}
+article img{
+    width: 100%;
+    border-radius: 1rem;
+}
+footer{
+    margin:2rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3em;
+    background-color: grey;
+}
+footer div img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+footer div p{
+ padding-top: .6em;
+ color:white;
+ font-family: "Quicksand", sans-serif;
+}
