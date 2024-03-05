@@ -1,0 +1,38 @@
+Overview:   
+
+In this exercise, you will add the interactive components created in the previous activity to the file provided and link the two pages. 
+
+Step 1  
+
+Open the Figma file called “Prototype” as well as the interactive components file you previously created.
+https://d3c33hcgiwev3.cloudfront.net/cYcqT0lCRWmd3THD7oCdZw_5c87786d6d054edbba75801560c4cae1_C7.M4.L3.item-6-exercise-prototype-solution.fig?Expires=1709769600&Signature=hIzvGOZTscvxMZ5wykiZ41Mb-5uadOklD5yS5hiGWwhQBX-jCgNpmWaJYp9f6K6SWLVBJU4dXASwitA8Zbbw3GTwau34RHDZHmS23R1RVELXZfs~8tDtrOEeMkJkDnhdnzxmugvoszixPT9qHpqb2-a102UCrL1~lFB4JlIE~Ww_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A 
+
+Step 2  
+
+ Copy and paste the interactive components into the prototype file.
+
+Step 3
+
+The components will show up on the assets panel. 
+
+Step 4 
+
+Add an instance of the button component to replace the Checkout button.  
+
+ Step 5  
+
+Link the pages. 
+
+Move from the design mode into the prototype mode. 
+
+Select the item description frame button and drag the blue icon to the pre-order confirmation screen. 
+
+The user may want to return to the previous page, so link the back arrow on the top left of this screen to the item description page. 
+
+Step 6 
+
+Test it by selecting the presentation mode button.
+
+
+Solution:
+This file includes the solution
